@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67defe8f8041415203d19332_fc6f4748-b036-4a09-87f6-ab00ee47cc20",
+  "id": "Home_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "images",
+        "value": "[{\n  url: \"https://th.bing.com/th/id/R.4ad9ccfa7daeb6d3baa3fea37a3d3c3d?rik=MvTK2I9LVVj51Q&riu=http%3a%2f%2fryancheffernan.org%2fwp-content%2fuploads%2fryancheffernan-org%2fsites%2f1509%2fbasketball-dunk.jpg&ehk=kqu5qSg0omoRUMMa4rnYCrGG3b7aTYies1rBvYqsWx4%3d&risl=&pid=ImgRaw&r=0\",\n  page: \"BasketballPage\"\n}, {\n  url: \"https://i.imgur.com/RIqnXQy.jpg\",\n  page: \"BadmintonPage\"\n}, {\n  url: \"https://www.health.com/thmb/Yv4HuoQyNbHNNxgtOTm63zqxurQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-Swimming-080c78802f384a4687df5a3b13d5611e-3719a8e40a3c4c43a63a4d795e47c505.jpg\",\n  page: \"SwimmingPage\"\n}, {\n  url: \"https://golf.com/wp-content/uploads/2022/04/GettyImages-sb10066409e-001.jpeg\",\n  page: \"GolfPage\"\n}, {\n  url: \"https://th.bing.com/th/id/OIP.5x_tVw398lhhtHRX-Dvx2QHaE8?rs=1&pid=ImgDetMain\",\n  page: \"TennisPage\"\n}]"
+      },
+      {
+        "name": "currentIndex",
+        "value": "appsmith.store.currentIndex || 0"
+      }
+    ]
+  }
+}

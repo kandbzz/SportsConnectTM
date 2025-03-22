@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 57,
+  "boxShadow": "none",
+  "defaultImage": "https://th.bing.com/th/id/R.4ad9ccfa7daeb6d3baa3fea37a3d3c3d?rik=MvTK2I9LVVj51Q&riu=http%3a%2f%2fryancheffernan.org%2fwp-content%2fuploads%2fryancheffernan-org%2fsites%2f1509%2fbasketball-dunk.jpg&ehk=kqu5qSg0omoRUMMa4rnYCrGG3b7aTYies1rBvYqsWx4%3d&risl=&pid=ImgRaw&r=0",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{JSObject1.images[appsmith.store.currentIndex].url}}\n",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "et2e4oqgbn",
+  "leftColumn": 2,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "{{JSObject1.navigateToPage();}}",
+  "parentColumnSpace": 13.0625,
+  "parentId": "9f7df54wrs",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "4bjhjx5w07",
+  "widgetName": "images"
+}

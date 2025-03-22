@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 35,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "direction-right",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2b69qsg18g",
+  "leftColumn": 62,
+  "minWidth": 50,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 62,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 37,
+  "needsErrorInfo": false,
+  "onClick": "{{JSObject1.nextImage();}}",
+  "parentColumnSpace": 12.253662109375,
+  "parentId": "9f7df54wrs",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "topRow": 31,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fezv6uesgu",
+  "widgetName": "next_image"
+}

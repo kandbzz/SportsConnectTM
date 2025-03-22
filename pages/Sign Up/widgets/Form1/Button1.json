@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "gs3pdh360f",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{add_user.run({\n  \"userId\": Username.text,\n  \"email\": Email.text,\n  \"firstName\": FirstName.text,\n  \"lastName\": LastName.text,\n  \"userArea\": Area.text,\n  \"age\": parseInt(Age.text),\n  \"gender\": Gender.selectedOptionValue,\n  \"bio\": Bio.text,\n  \"password\": Password.text\n}).then(() => {\n  showAlert('Successfully Added User', '');\n}).catch(() => {\n  showAlert('FAILURE', '');\n});}}",
+  "originalBottomRow": 59,
+  "originalTopRow": 55,
+  "parentId": "gm5xg0rkd5",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "text": "Submit",
+  "topRow": 55,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kkabqc9y1c",
+  "widgetName": "Button1"
+}

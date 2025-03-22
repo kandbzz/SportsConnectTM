@@ -1,0 +1,17 @@
+{{
+{
+	"facilityId": this.params.facilityId, 
+  "name": this.params.name,
+  "address": this.params.address, 
+  "area": this.params.area, 
+  "hours": this.params.hours, 
+  "phoneNum": this.params.phoneNum, 
+  "website": this.params.website, 
+  "email": this.params.email, 
+  "facilityType": this.params.facilityType
+}
+	
+}}
+
+
+	
