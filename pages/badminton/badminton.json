@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "67defe8f8041415203d19332_1195df88-93a1-49c4-b340-dda01e71dcce",
+  "gitSyncId": "67defe8f8041415203d19332_8f664b38-e7be-4377-8e72-44fb19639725",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 800,
+          "bottomRow": 850,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 830,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 81,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "badminton",
+    "slug": "badminton"
   }
 }

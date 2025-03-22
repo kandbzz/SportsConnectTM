@@ -40,7 +40,7 @@
       "isVisible": true,
       "label": "Log In",
       "menuItems": {},
-      "onClick": "{{showModal(Log_In.name);}}",
+      "onClick": "{{showModal(LogIn.name);}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -55,7 +55,7 @@
       "isVisible": true,
       "label": "Sign Up",
       "menuItems": {},
-      "onClick": "{{showModal(Sign_Up.name);}}",
+      "onClick": "{{navigateTo('Sign Up', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     }
