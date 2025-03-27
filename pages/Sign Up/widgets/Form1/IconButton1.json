@@ -28,7 +28,7 @@
   "mobileRightColumn": 9,
   "mobileTopRow": 57,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('HOME', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 61,
   "originalTopRow": 57,
   "parentColumnSpace": 20.09375,
