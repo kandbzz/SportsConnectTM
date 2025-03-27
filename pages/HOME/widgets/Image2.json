@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderRadius": "object-fit: cover;\nwidth: 90px; /* Adjust as needed */\nheight: 80px; /* Adjust as needed */\noverflow: hidden;\nborder-radius: 50px; /* Optional: Rounds corners */",
+  "bottomRow": 9,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultImage": "",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://static.vecteezy.com/system/resources/thumbnails/011/822/333/small_2x/karate-sports-place-logo-concepts-man-kicking-and-pin-point-icon-free-vector.jpg",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "bqt32m4lsl",
+  "leftColumn": 2,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 7,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "parentColumnSpace": 20.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 7,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "3jnh1dvgph",
+  "widgetName": "Image2"
+}

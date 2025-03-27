@@ -44,7 +44,7 @@
   "isVisible": true,
   "key": "re7lhce9e6",
   "label": "Join Sports Community",
-  "leftColumn": 11,
+  "leftColumn": 10,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
@@ -105,7 +105,7 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 26,
+  "rightColumn": 25,
   "sourceData": [],
   "topRow": 4,
   "type": "MENU_BUTTON_WIDGET",

@@ -47,6 +47,14 @@
     {
       "id": "badminton",
       "isDefault": false
+    },
+    {
+      "id": "HOME",
+      "isDefault": false
+    },
+    {
+      "id": "TENNIS",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#FFFFFF",
-  "borderColor": "#E0DEDE",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderRadius": "1.5rem",
   "borderWidth": "1",
-  "bottomRow": 73,
+  "bottomRow": 95,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 720,
+      "bottomRow": 760,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -52,19 +52,23 @@
   ],
   "dynamicBindingPathList": [
     {
-      "key": "borderRadius"
+      "key": "boxShadow"
     },
     {
-      "key": "boxShadow"
+      "key": "backgroundColor"
+    },
+    {
+      "key": "borderColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
   "isVisible": true,
   "key": "fo2ijbo64z",
-  "leftColumn": 0,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -73,17 +77,17 @@
   "mobileRightColumn": 44,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "originalBottomRow": 73,
-  "originalTopRow": 1,
+  "originalBottomRow": 95,
+  "originalTopRow": 19,
   "parentColumnSpace": 14.03125,
   "parentId": "0",
   "parentRowSpace": 10,
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 62,
   "shouldScrollContents": true,
-  "topRow": 1,
+  "topRow": 19,
   "type": "FORM_WIDGET",
   "widgetId": "sxzdkwxo7h",
   "widgetName": "Form1"

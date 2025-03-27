@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67defe8f8041415203d19332_d7f32b9c-e731-4492-bb3e-4b06e2bac62d",
-  "id": "Tennis_update_facility",
+  "id": "TENNIS_update_facility",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -49,7 +49,7 @@
     ],
     "executeOnLoad": false,
     "name": "update_facility",
-    "pageId": "Tennis",
+    "pageId": "TENNIS",
     "userSetOnLoad": false
   }
 }

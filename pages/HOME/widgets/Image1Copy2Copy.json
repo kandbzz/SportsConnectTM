@@ -1,0 +1,46 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 38,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://au.imgix.net/2024/01/WNBA_Partnership_Desktop.jpg?auto=format&fm=pjgp&w=1920&s=8702b9417823e60bcbee3c0983cd3eb4\n",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "wjbk0jsfis",
+  "leftColumn": 2,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 29,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "{{navigateTo('Basketball', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 38,
+  "originalTopRow": 15,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 32,
+  "topRow": 15,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "vx93tkkd7e",
+  "widgetName": "Image1Copy2Copy"
+}
