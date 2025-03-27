@@ -1,8 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 49,
+  "bottomRow": 4,
+  "boxShadow": "none",
   "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
     {
       "key": "truncateButtonColor"
     },
@@ -11,42 +15,42 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "x0562rr5k8",
-  "leftColumn": 17,
+  "key": "5jsid7kh74",
+  "leftColumn": 16,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 43,
-  "mobileLeftColumn": 26,
-  "mobileRightColumn": 42,
-  "mobileTopRow": 39,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 49,
-  "originalTopRow": 45,
   "overflow": "NONE",
-  "parentColumnSpace": 20.5625,
-  "parentId": "0",
-  "parentRowSpace": 10,
+  "parentId": "zjijqu478q",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 26,
+  "rightColumn": 28,
   "shouldTruncate": false,
-  "text": "Swimming Facilities",
+  "text": "{{currentItem.name}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 45,
+  "textStyle": "HEADING",
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "mhwrl74wgi",
-  "widgetName": "Text5"
+  "widgetId": "phjus88n41",
+  "widgetName": "Text2Copy"
 }

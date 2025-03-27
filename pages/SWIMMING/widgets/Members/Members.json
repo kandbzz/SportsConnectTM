@@ -59,6 +59,7 @@
     }
   ],
   "currentItemsView": "{{[]}}",
+  "defaultSelectedItem": "{{get_user_info.data[0].id}}",
   "dynamicBindingPathList": [
     {
       "key": "currentItemsView"
@@ -80,6 +81,12 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "listData"
+    },
+    {
+      "key": "defaultSelectedItem"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -94,23 +101,7 @@
   "itemSpacing": 8,
   "key": "8faidkc6lg",
   "leftColumn": 2,
-  "listData": [
-    {
-      "id": "001",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Blue"
-    },
-    {
-      "id": "002",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Green"
-    },
-    {
-      "id": "003",
-      "img": "https://assets.appsmith.com/widgets/default.png",
-      "name": "Red"
-    }
-  ],
+  "listData": "{{get_user_info.data}}",
   "mainCanvasId": "jwjzofuh79",
   "mainContainerId": "mij118p84b",
   "minWidth": 450,
@@ -119,22 +110,22 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 34,
   "needsErrorInfo": false,
-  "originalBottomRow": 117,
-  "originalTopRow": 44,
+  "originalBottomRow": 122,
+  "originalTopRow": 49,
   "pageSize": 6,
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{Members.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 19,
+  "rightColumn": 16,
   "selectedItemView": "{{{}}}",
   "templateHeight": 160,
   "topRow": 49,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "00qla6u7y5",
-  "widgetName": "List1"
+  "widgetName": "Members"
 }

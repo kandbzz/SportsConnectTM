@@ -35,7 +35,7 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "get_user_info",
     "pageId": "SWIMMING",
     "userSetOnLoad": false

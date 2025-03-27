@@ -1,10 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 45,
-  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "bottomRow": 8,
+  "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
+    {
+      "key": "image"
+    },
     {
       "key": "borderRadius"
     }
@@ -13,29 +16,25 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "https://cdn.britannica.com/01/193601-050-F8F18A9B/Katie-Ledecky-American-lead-way-women-world-2016.jpg\n",
+  "image": "{{currentItem.img}}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
   "key": "wjbk0jsfis",
-  "leftColumn": 2,
+  "leftColumn": 0,
   "maxZoomLevel": 1,
-  "mobileBottomRow": 18,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 13,
-  "mobileTopRow": 6,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
   "objectFit": "cover",
-  "originalBottomRow": 45,
-  "originalTopRow": 15,
-  "parentColumnSpace": 17.9375,
-  "parentId": "0",
-  "parentRowSpace": 10,
+  "parentId": "zjijqu478q",
   "renderMode": "CANVAS",
-  "rightColumn": 62,
-  "topRow": 15,
+  "rightColumn": 16,
+  "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "xz0huw9cbr",
-  "widgetName": "Image1"
+  "widgetId": "7eufnicvzf",
+  "widgetName": "Image2Copy1"
 }
