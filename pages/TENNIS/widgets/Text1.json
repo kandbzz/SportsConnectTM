@@ -39,7 +39,7 @@
   "shouldTruncate": false,
   "text": "TENNIS COMMUNITY",
   "textAlign": "RIGHT",
-  "textColor": "#231F20",
+  "textColor": "#a16207",
   "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

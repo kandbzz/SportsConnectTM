@@ -55,6 +55,10 @@
     {
       "id": "TENNIS",
       "isDefault": false
+    },
+    {
+      "id": "SWIMMING",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

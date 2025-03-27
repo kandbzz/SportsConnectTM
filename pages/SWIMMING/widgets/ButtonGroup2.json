@@ -1,0 +1,174 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButtonm6ocv0e7kd.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#3b82f6",
+      "buttonType": "MENU",
+      "disabledWhenInvalid": false,
+      "iconName": "heart",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Home",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#3b82f6",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "add",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Sign Up",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "#1d4ed8",
+      "buttonType": "MENU",
+      "disabledWhenInvalid": false,
+      "iconName": "more",
+      "id": "groupButton3",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Sports Communities",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "#dbeafe",
+          "disabledWhenInvalid": false,
+          "iconAlign": "right",
+          "iconColor": "#18181b",
+          "iconName": "caret-right",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Tennis Community",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "backgroundColor": "#f4f4f5",
+          "disabledWhenInvalid": false,
+          "iconAlign": "right",
+          "iconName": "caret-right",
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Basketball Community",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem3": {
+          "backgroundColor": "#dbeafe",
+          "disabledWhenInvalid": false,
+          "iconAlign": "right",
+          "iconColor": "#18181b",
+          "iconName": "caret-right",
+          "id": "menuItem3",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Swimming Community",
+          "onClick": "",
+          "textColor": "#18181b",
+          "widgetId": ""
+        },
+        "menuIteml0obvqmetb": {
+          "backgroundColor": "#dbeafe",
+          "iconAlign": "right",
+          "iconColor": "#18181b",
+          "iconName": "caret-right",
+          "id": "menuIteml0obvqmetb",
+          "index": 4,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Badminton Community",
+          "widgetId": "scueviofmf"
+        },
+        "menuItemryp8qy1j0k": {
+          "iconAlign": "right",
+          "iconColor": "#18181b",
+          "iconName": "caret-right",
+          "id": "menuItemryp8qy1j0k",
+          "index": 3,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Golf Community",
+          "widgetId": "ipooin932v"
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonm6ocv0e7kd": {
+      "buttonColor": "#3b82f6",
+      "buttonType": "SIMPLE",
+      "iconName": "mugshot",
+      "id": "groupButtonm6ocv0e7kd",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Log In",
+      "menuItems": {},
+      "onClick": "{{showModal(LogIn.name);}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "g0i170tlzh"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "uef54smuw9",
+  "leftColumn": 2,
+  "minWidth": 450,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 14,
+  "originalTopRow": 10,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "topRow": 10,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "7t7r1qaaii",
+  "widgetName": "ButtonGroup2"
+}
