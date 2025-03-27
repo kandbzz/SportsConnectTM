@@ -3,8 +3,8 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 69,
-  "defaultCheckedState": true,
+  "bottomRow": 70,
+  "defaultCheckedState": false,
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -17,7 +17,7 @@
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "grw2zbkefs",
   "label": "Agree to Terms and Conditions",
@@ -31,7 +31,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 58,
   "needsErrorInfo": false,
-  "originalBottomRow": 69,
+  "originalBottomRow": 70,
   "originalTopRow": 65,
   "parentColumnSpace": 18.96484375,
   "parentId": "gm5xg0rkd5",

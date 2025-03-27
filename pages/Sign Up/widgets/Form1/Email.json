@@ -20,7 +20,7 @@
   "inputType": "EMAIL",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "huiws2k4ch",
   "label": "Email",
