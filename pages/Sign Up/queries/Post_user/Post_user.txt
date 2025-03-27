@@ -1,13 +1,14 @@
 {{
-	{
-	"userId" : this.params.userId,
-	"email": this.params.email,
-	"firstName": this.params.firstName,
-	"userArea": this.params.userArea,
-	"age": this.params.age,
-	"gender": this.params.gender,
-	"bio": this.params.bio,
-	"password": this.params.password
-	}
+{"userId": this.params.userId,
+ "email": this.params.email, 
+ "firstName": this.params.firstName, 
+ "lastName": this.params.lastName, 
+ "userArea": this.params.userArea, 
+ "age": this.params.age, 
+ "gender": this.params.gender, 
+ "bio": this.params.bio,
+ "password": this.params.password,
+ "sportName": this.params.sportName
+}
 }}
 

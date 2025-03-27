@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 59,
+  "bottomRow": 70,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,6 +14,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -31,9 +32,9 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{add_user.run({\n  \"userId\": Username.text,\n  \"email\": Email.text,\n  \"firstName\": FirstName.text,\n  \"lastName\": LastName.text,\n  \"userArea\": Area.text,\n  \"age\": parseInt(Age.text),\n  \"gender\": Gender.selectedOptionValue,\n  \"bio\": Bio.text,\n  \"password\": Password.text\n}).then(() => {\n  showAlert('Successfully Added User', '');\n}).catch(() => {\n  showAlert('FAILURE', '');\n});}}",
-  "originalBottomRow": 59,
-  "originalTopRow": 55,
+  "onClick": "{{add_user.run({\n  \"userId\": Username.text,\n  \"email\": Email.text,\n  \"firstName\": FirstName.text,\n  \"lastName\": LastName.text,\n  \"userArea\": UserArea.selectedOptionValue,\n  \"age\": Age.text,\n  \"gender\": Gender.selectedOptionValue,\n  \"bio\": Bio.text,\n  \"password\": Password.text,\n  \"sportName\": SportName.selectedOptionValue\n}).then(() => {\n  showAlert('Successfully Added User', '');\n}).catch(() => {\n  showAlert('FAILURE', '');\n});}}",
+  "originalBottomRow": 70,
+  "originalTopRow": 66,
   "parentId": "gm5xg0rkd5",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -42,7 +43,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 62,
   "text": "Submit",
-  "topRow": 55,
+  "topRow": 66,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "kkabqc9y1c",

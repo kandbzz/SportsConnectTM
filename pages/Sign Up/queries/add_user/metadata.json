@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n{\"userId\": this.params.userId,\n \"email\": this.params.email, \n \"firstName\": this.params.firstName, \n \"lastName\": this.params.lastName, \n \"userArea\": this.params.userArea, \n \"age\": this.params.age, \n \"gender\": this.params.gender, \n \"bio\": this.params.bio,\n \"password\": this.params.password\n}\n}}",
+      "body": "{{\n{\"userId\": this.params.userId,\n \"email\": this.params.email, \n \"firstName\": this.params.firstName, \n \"lastName\": this.params.lastName, \n \"userArea\": this.params.userArea, \n \"age\": this.params.age, \n \"gender\": this.params.gender, \n \"bio\": this.params.bio,\n \"password\": this.params.password,\n \"sportName\": this.params.sportName\n}\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

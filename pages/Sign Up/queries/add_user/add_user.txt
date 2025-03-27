@@ -7,6 +7,7 @@
  "age": this.params.age, 
  "gender": this.params.gender, 
  "bio": this.params.bio,
- "password": this.params.password
+ "password": this.params.password,
+ "sportName": this.params.sportName
 }
 }}
