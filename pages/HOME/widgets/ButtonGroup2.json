@@ -17,6 +17,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "groupButtons.groupButtonm6ocv0e7kd.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
     }
   ],
   "groupButtons": {
@@ -45,6 +48,7 @@
       "isVisible": true,
       "label": "Sign Up",
       "menuItems": {},
+      "onClick": "{{navigateTo('Sign Up', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     },
